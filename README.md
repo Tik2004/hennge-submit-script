@@ -13,6 +13,7 @@ First, construct a JSON string like below:
   "github_url": "https://github.com/YOUR_ACCOUNT/GITHUB_REPOSITORY",
 
   "contact_email": "YOUR_EMAIL"
+  
 }
 
 Fill in your email address for YOUR_EMAIL, and the private Github repository with your solution in YOUR_ACCOUNT/GITHUB_REPOSITORY. Then, make an HTTP POST request to the following URL with the JSON string as the body part.
