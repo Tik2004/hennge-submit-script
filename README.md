@@ -38,3 +38,6 @@ For example, if the userid is "email@example.com", the token shared secret is "e
 If your POST request succeeds, the server returns HTTP status code 200 .
 
 ***
+
+# I have the script to submit it
+
