@@ -3,12 +3,12 @@ const base64 = require('base-64');
 const utf8 = require('utf8');
 const hotpTotpGenerator = require('hotp-totp-generator');
 
-const ReqJSON = {
-  github_url: 'GITHUB_REPO',
+const ReqJson = {
+  github_url: 'YO_GITHUB_REPO',
   contact_email: 'YOUR_MAIL',
 };
 
-const stringData = JSON.stringify(ReqJSON);
+const stringData = JSON.stringify(ReqJson);
 const URL = 'CHALLENGE_URL';
 const sharedSecret = ReqJSON.contact_email + 'SPECIAL_CODE';
 
