@@ -34,7 +34,7 @@ const createReq = async () => {
       },
     };
 
-    console.log('Making request', { URL, ReqJSON, config });
+    console.log('Fetching request: ', { URL, ReqJSON, config });
 
     const response = await axios.post(URL, stringData, config);
     console.log(response.data);
