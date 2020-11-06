@@ -4,7 +4,7 @@ const utf8 = require('utf8');
 const hotpTotpGenerator = require('hotp-totp-generator');
 
 const ReqJson = {
-  github_url: 'YO_GITHUB_REPO',
+  github_url: 'YOUR_GITHUB_REPO',
   contact_email: 'YOUR_MAIL',
 };
 
